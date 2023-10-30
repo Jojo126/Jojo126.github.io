@@ -1,0 +1,170 @@
+#lightboxBG {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,.8);
+  z-index: 1;
+  cursor: pointer;
+}
+#lightbox {
+  display: flex;
+  padding: 1vw;
+  background-color: #F2EFEB;
+  transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+  color: black;
+  cursor: default;
+}
+
+#slideShow {
+  align-self: center;
+  overflow: hidden;
+  transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+}
+
+#slideControls {
+  position: absolute;
+  transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+}
+.slideShowBtn {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0,0,0,.1);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .6s ease-in;
+  cursor: pointer;
+}
+.slideShowBtn > img {
+  margin: .5vw;
+}
+.slideShowBtn:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+#prevSlideBtn {
+  left: 0;
+}
+#nextSlideBtn{
+  right: 0;
+}
+
+#slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+#slides > img, #slides > video {
+  transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+  background-color: #000;
+}
+
+#info {
+  margin-left: 2vh;
+  max-width: 25vw;
+  margin-top: 5vh;
+}
+#info h1 {
+  margin: 0;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 3em;
+}
+#info h2 {
+  font-size: 1.2em;
+}
+#infoPoints {
+  padding: 1vh 0;
+  margin: 1vh 0;
+  border-top: 1px solid #acacac;
+  border-bottom: 1px solid #acacac;
+}
+#date {
+  font-size: .8em; 
+  margin: 0;
+}
+#team {
+  font-size: .8em;
+  margin: 5px 0;
+}
+#info div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 100%;
+}
+#info div p {
+  font-size: .8em;
+  margin: 0;
+  width: max-content;
+}
+#info div a {
+  text-decoration: none;
+  padding: .05em .5em;
+}
+#info div a span {
+  font-size: .7em;
+  font-weight: bold;
+  vertical-align: .1em;
+  width: max-content;
+}
+.tool {
+  border-radius: 1em;
+}
+#location {
+  font-size: .8em;
+  margin: 5px 0;
+}
+#projPageLink {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  padding: 4px;
+  background-color: #acacac;
+}
+
+#closeLightboxBtn {
+  width: 50px;
+  transition: height 0.6s ease-in-out;
+}
+#closeLightboxBtn > img {
+  margin-left: .5vw;
+  width: 32px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.6s ease-in;
+}
+#closeLightboxBtn > img:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+#slidePreviews {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+.slidePreview {
+  width: 25px;
+  height: 5px;
+  transition: .6s ease-out;
+  z-index: 10;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #666;
+}
+.active {
+  background-color: #FFF;
+  transition: .3s ease-in;
+}

@@ -1,0 +1,53 @@
+.Menu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Menu img {
+    width: 50%;
+}
+
+.Menu h1 {
+    font-weight: normal;
+}
+
+.Menu > div:first-child {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.Menu a {
+    z-index: 1;
+    opacity: .5;
+    transition: .6s ease-in;
+}
+
+.Menu a:hover {
+    opacity: 1;
+    transition: .3s ease-out;
+}
+
+.Menu #socials {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.Menu #socials a {
+    color: #FFF;
+}
+
+.Menu #copyright span {
+    font-weight: normal;
+    font-size: .65em;
+}
