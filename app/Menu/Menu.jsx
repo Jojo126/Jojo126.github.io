@@ -13,7 +13,7 @@ function Menu() {
     <div className="Menu">
       <div>
         <div>
-          <Image src={logo} id="logo" alt="logotype" />
+          <Image priority={true} src={logo} id="logo" alt="logotype" />
           <h1>Johanna Palmkvist</h1>
         </div>
         <div id="socials">

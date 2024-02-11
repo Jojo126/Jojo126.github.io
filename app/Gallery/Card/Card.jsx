@@ -6,13 +6,11 @@ function Card (props) {
 
   const showLightbox = () => {
     props.onShow();
-  }; 
-
-  console.log(props.data.categories)
+  };
 
   return (
     <div className={"card " + props.data.categories.join(' ')} ref={props.innerRef} style={{transitionDelay: `${props.delay}ms`}}>
-      { props.data.thumbnail.mediaType === 'image' ? (<Image width={window.innerHeight*.26} height={window.innerHeight*.26} className="thumbnail" src={`/gallery/${props.data.thumbnail.uri}`} alt={props.data.name}/>)
+      { props.data.thumbnail.mediaType === 'image' ? (<Image priority={props.shouldPreload} width={window.innerHeight*.26} height={window.innerHeight*.26} className="thumbnail" src={`/gallery/${props.data.thumbnail.uri}`} alt={props.data.name}/>)
       : (<video 
         className="thumbnail" 
         autoPlay 

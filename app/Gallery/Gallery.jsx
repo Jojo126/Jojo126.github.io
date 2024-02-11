@@ -103,6 +103,7 @@ function Gallery() {
               <Card 
                 innerRef={itemRef} 
                 data={workObj} 
+                shouldPreload={id <= 12}
                 onShow={() => openLightbox(workObj.id)}
                 delay={waveEffectDelay} />
             </CSSTransition>
