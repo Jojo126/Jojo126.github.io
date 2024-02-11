@@ -1415,6 +1415,32 @@
         "link": "https://github.com/g-truc/glm"
       }],
       "descr": "A Monte-Carlo ray tracer written from scratch in C++. All surfaces use Lambertian diffuse reflectors for the matte look except for the sphere which use a *\"perfect reflector\"* for its surface. There are two different renders here. The first render has an area light in the ceiling and the other one has instead a point light in the same spot. This was a student project for the *Advanced Global Illumination and Rendering* course given at LiU."
+    },
+    {
+      "id": "44",
+      "name": "Helix Animation",
+      "thumbnail": {
+        "uri": "helixAnimation/helix_250.webp",
+        "mediaType": "image"
+      },
+      "images": [{
+        "uri": "helixAnimation/helix.webp",
+        "width": 1669,
+        "height": 919,
+        "mediaType": "image"
+      }],
+      "date": "2024-01-13",
+      "categories": ["Websites", "Animations"],
+      "tools": [{
+        "name": "CSS",
+        "colors": {
+          "bg": "#214ce6",
+          "pg": "#FFF"
+        },
+        "link": "https://en.wikipedia.org/wiki/CSS"
+      }],
+      "link": "https://jojo126.github.io/helix-css-animation/",
+      "descr": "While watching a vod from one of Mewtru's livestreams on twitch, she showed one of her recent projects where she had made an animation like this one. I got curious if I could remake it and so I tried and ended up with this result :)"
     }
   ]
 }
