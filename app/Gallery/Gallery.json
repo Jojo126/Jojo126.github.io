@@ -1441,6 +1441,40 @@
       }],
       "link": "https://jojo126.github.io/helix-css-animation/",
       "descr": "While watching a vod from one of Mewtru's livestreams on twitch, she showed one of her recent projects where she had made an animation like this one. I got curious if I could remake it and so I tried and ended up with this result :)"
+    },
+    {
+      "id": "45",
+      "name": "Bubbles Screensaver",
+      "thumbnail": {
+        "uri": "bubbles/bubbles_250.webp",
+        "mediaType": "image"
+      },
+      "images": [{
+        "uri": "bubbles/bubbles.webp",
+        "width": 1266,
+        "height": 700,
+        "mediaType": "image"
+      }],
+      "date": "2023-07-17",
+      "categories": ["Websites", "Animations"],
+      "tools": [{
+        "name": "JavaScript",
+        "colors": {
+          "bg": "#f1dc4f",
+          "pg": "#2e302b"
+        },
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "name": "Photoshop",
+        "colors": {
+          "bg": "#001e36",
+          "pg": "#31a8ff"
+        },
+        "link": "https://www.adobe.com/products/photoshop.html"
+      }],
+      "link": "https://jojo126.github.io/bubbles/",
+      "descr": "I tried recreating the old bubbles screensaver that was available in earlier versions of Windows. To challenge myself a bit extra, I attempted to this with implementing my own physics engine instead of using e.g. [matter.js](https://brm.io/matter-js/). That is partially why the bubbles behave a bit buggy 😅"
     }
   ]
 }
