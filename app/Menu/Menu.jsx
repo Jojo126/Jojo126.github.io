@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faInstagram, faDeviantart, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import logo from './../assets/logo.svg';
+import logo from '@/app/icon.svg';
 
 import './Menu.css';
 
@@ -12,7 +13,7 @@ function Menu() {
     <div className="Menu">
       <div>
         <div>
-          <img src={logo} id="logo" alt="logotype" />
+          <Image src={logo} id="logo" alt="logotype" />
           <h1>Johanna Palmkvist</h1>
         </div>
         <div id="socials">

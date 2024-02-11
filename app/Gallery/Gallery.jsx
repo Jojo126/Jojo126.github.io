@@ -1,13 +1,15 @@
+'use client';
+
 import { useRef, useState, createRef, useEffect } from 'react';
 import { Transition, TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import Card from './Card.jsx';
-import Lightbox from './Lightbox.jsx';
+import Card from './Card/Card';
+import Lightbox from './Lightbox/Lightbox';
 import './Gallery.css';
 
-function Gallery() {
-  const data = require('./../Gallery.json');
+import data from './Gallery.json';
 
+function Gallery() {
   const [workItems, setWorkItems] = useState(data.work.sort((a,b)=> {
     return a.date < b.date ? 1 : -1
   }));
@@ -65,7 +67,7 @@ function Gallery() {
 
     return () => [clearTimeout(timer)];
 
-  }, [activeFilter, data.work, cardTransDuration]);
+  }, [activeFilter, cardTransDuration]);
 
   return (
     <div className="Gallery">

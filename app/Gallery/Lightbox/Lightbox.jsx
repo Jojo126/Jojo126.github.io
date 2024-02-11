@@ -1,15 +1,16 @@
 import { useState, useEffect, useCallback } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Image from "next/image";
+import Markdown from 'react-markdown';
 
-import closeIcon from './../assets/close.png';
-import prevIcon from './../assets/prev.png';
-import nextIcon from './../assets/next.png';
+import closeIcon from '@/public/lightbox/close.png';
+import prevIcon from '@/public/lightbox/prev.png';
+import nextIcon from '@/public/lightbox/next.png';
 
 import "./Lightbox.css";
 
 function Lightbox({viewedWork, isShown, closeLightbox}) {
 
-  const [slide, updateSlide] = useState({slideIndex: 0, scrolledPx: 0, currentWidth: window.innerWidth/2, currentHeight: window.innerHeight/2, scaleFactor: 1});
+  const [slide, updateSlide] = useState({slideIndex: 0, scrolledPx: 0, currentWidth: 1920/2, currentHeight: 1080/2, scaleFactor: 1});
 
   const MAX_SCREENPORTION_X = .6;
   const MAX_SCREENPORTION_Y = .8;
@@ -36,7 +37,7 @@ function Lightbox({viewedWork, isShown, closeLightbox}) {
       scrolledPx: scrolledPx, 
       currentWidth: viewedWork?.images[index].width, 
       currentHeight: viewedWork?.images[index].height, 
-      scaleFactor: scaleFactor
+      scaleFactor: scaleFactor ? scaleFactor : 1
     });
   }
   const initLightbox = useCallback(gotoSlide, [viewedWork?.images]);
@@ -51,30 +52,31 @@ function Lightbox({viewedWork, isShown, closeLightbox}) {
         <div id="slideShow" style={{width: slide.currentWidth * slide.scaleFactor + 'px', height: slide.currentHeight * slide.scaleFactor + 'px'}}>
           <div id="slideControls" style={{width: slide.currentWidth * slide.scaleFactor + 'px', height: slide.currentHeight * slide.scaleFactor + 'px'}}>
             {slide.slideIndex > 0 && <div onClick={() => {gotoSlide(slide.slideIndex - 1)}} className="slideShowBtn" id="prevSlideBtn">
-              <img src={prevIcon} alt="<" />
+              <Image src={prevIcon} alt="<" />
             </div>}
             {slide.slideIndex < viewedWork?.images.length-1 && <div onClick={() => {gotoSlide(slide.slideIndex + 1)}} className="slideShowBtn" id="nextSlideBtn">
-              <img src={nextIcon} alt=">" />
+              <Image src={nextIcon} alt=">" />
             </div>}
             {viewedWork?.images.length > 1 && <div id="slidePreviews">{viewedWork?.images.map((val, index) => <div onClick={() => {gotoSlide(index)}} key={index} className={`slidePreview ${index === slide.slideIndex ? 'active' : ''}`}></div>)}</div>}
           </div>
           <div id="slides" style={{transform: `translateX(-${slide.scrolledPx}px)`}}>
             {viewedWork?.images.map((image, index) => {
-                return image.mediaType === 'image' ? (<img 
+                return image.mediaType === 'image' ? (<Image 
                   key={image.uri} 
-                  style={{
-                    width: index === slide.slideIndex ? image.width * slide.scaleFactor + 'px' : image.width + 'px', 
-                    height: index === slide.slideIndex ? image.height * slide.scaleFactor + 'px' : image.height + 'px'
-                  }} 
-                  src={require(`../assets/gallery/${image.uri}`)} 
+                  
+
+                  width={index === slide.slideIndex ? image.width * slide.scaleFactor : image.width}
+                  height={index === slide.slideIndex ? image.height * slide.scaleFactor : image.height}
+                  
+                  src={`/gallery/${image.uri}`} 
                   alt={viewedWork?.name} 
                 />) : 
                 (<video 
                   key={image.sources[0].uri}
-                  style={{
-                    width: index === slide.slideIndex ? image.width * slide.scaleFactor + 'px' : image.width + 'px', 
-                    height: index === slide.slideIndex ? image.height * slide.scaleFactor + 'px' : image.height + 'px'
-                  }} 
+                  
+                  width={index === slide.slideIndex ? image.width * slide.scaleFactor : image.width}
+                  height={index === slide.slideIndex ? image.height * slide.scaleFactor : image.height}
+                  
                   muted={index !== slide.slideIndex || !isShown}
                   controls 
                   autoPlay 
@@ -106,7 +108,7 @@ function Lightbox({viewedWork, isShown, closeLightbox}) {
             </div>
             {viewedWork?.location && <p id="location"><b>Location:</b> {viewedWork.location}</p>}
           </div>
-          {viewedWork?.descr && <ReactMarkdown children={viewedWork.descr}/>}
+          {viewedWork?.descr && <Markdown>{viewedWork.descr}</Markdown>}
           {viewedWork?.link && (
             <a id="projPageLink" href={viewedWork.link} target="_blank" rel="noreferrer">
               <span>Visit project page</span>
@@ -115,7 +117,7 @@ function Lightbox({viewedWork, isShown, closeLightbox}) {
         </span>
       </div>
       <div onClick={close} id="closeLightboxBtn" style={{height: `calc(4vh + ${slide.currentHeight * slide.scaleFactor}px)`}}>
-          <img onClick={close} src={closeIcon} alt="x" />
+          <Image onClick={close} src={closeIcon} alt="x" />
       </div>
     </div>
   );

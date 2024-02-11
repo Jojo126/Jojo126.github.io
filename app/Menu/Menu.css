@@ -10,6 +10,8 @@
 
 .Menu img {
     width: 50%;
+    height: auto;
+    filter: invert(1);
 }
 
 .Menu h1 {
