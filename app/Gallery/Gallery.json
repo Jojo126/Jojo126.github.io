@@ -1475,6 +1475,32 @@
       }],
       "link": "https://jojo126.github.io/bubbles/",
       "descr": "I tried recreating the old bubbles screensaver that was available in earlier versions of Windows. To challenge myself a bit extra, I attempted to this with implementing my own physics engine instead of using e.g. [matter.js](https://brm.io/matter-js/). That is partially why the bubbles behave a bit buggy 😅"
+    },
+    {
+      "id": "46",
+      "name": "Advent of Code 2023",
+      "thumbnail": {
+        "uri": "AoC2023.png",
+        "mediaType": "image"
+      },
+      "images": [{
+        "uri": "AoC2023.png",
+        "width": 657,
+        "height": 657,
+        "mediaType": "image"
+      }],
+      "date": "2024-06-02",
+      "categories": [],
+      "tools": [{
+        "name": "JavaScript",
+        "colors": {
+          "bg": "#f1dc4f",
+          "pg": "#2e302b"
+        },
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }],
+      "link": "https://github.com/Jojo126/AoC2023",
+      "descr": "It took me way longer than a month, but I finally solved all the programming puzzles in Advent of Code 2023 with Javascript and Nodejs."
     }
   ]
 }
