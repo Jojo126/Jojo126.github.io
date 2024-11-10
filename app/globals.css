@@ -20,7 +20,7 @@ body {
   height: 100%;
 
   display: grid;
-  grid-template-columns: .5fr 1px 5fr;
+  grid-template-columns: 1fr 1px 5fr;
   gap: 2%;
 }
 
