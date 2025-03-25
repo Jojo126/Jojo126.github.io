@@ -1,20 +1,42 @@
 {
-  "filters": ["All", "Websites", "Drawings", "3D Graphics", "Photographs", "Animations", "Games"],
+  "filters": [
+    "All",
+    "Websites",
+    "Drawings",
+    "3D Graphics",
+    "Photographs",
+    "Animations",
+    "Games"
+  ],
   "work": [
     {
       "id": "1",
       "name": "Crosshatching Shaders",
       "thumbnail": {
         "sources": [
-          {"uri": "crosshatch/actualcrosshatch250.mp4", "format": "mp4"}, 
-          {"uri": "crosshatch/actualcrosshatch250.webm", "format": "webm"}],
+          {
+            "uri": "crosshatch/actualcrosshatch250.mp4",
+            "format": "mp4"
+          },
+          {
+            "uri": "crosshatch/actualcrosshatch250.webm",
+            "format": "webm"
+          }
+        ],
         "mediaType": "video"
       },
       "images": [
         {
           "sources": [
-            {"uri": "crosshatch/actualcrosshatch1080.mp4", "format": "mp4"}, 
-            {"uri": "crosshatch/actualcrosshatch1080.webm", "format": "webm"}],
+            {
+              "uri": "crosshatch/actualcrosshatch1080.mp4",
+              "format": "mp4"
+            },
+            {
+              "uri": "crosshatch/actualcrosshatch1080.webm",
+              "format": "webm"
+            }
+          ],
           "width": 1920,
           "height": 1080,
           "mediaType": "video"
@@ -36,26 +58,34 @@
           "width": 564,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2021-03-11",
-      "categories": ["3D Graphics", "Animations"],
-      "team": ["Anneli Nilsson"],
-      "tools": [{
-        "name": "Maya",
-        "colors": {
-          "bg": "#37a5cf",
-          "pg": "#FFF"
+      "categories": [
+        "3D Graphics",
+        "Animations"
+      ],
+      "team": [
+        "Anneli Nilsson"
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "colors": {
+            "bg": "#37a5cf",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/maya/overview"
         },
-        "link": "https://www.autodesk.com/products/maya/overview"
-      }, 
-      {
-        "name": "Blender",
-        "colors": {
-          "bg": "#e87d0d",
-          "pg": "#FFF"
-        },
-        "link": "https://www.blender.org/"
-      }],
+        {
+          "name": "Blender",
+          "colors": {
+            "bg": "#e87d0d",
+            "pg": "#FFF"
+          },
+          "link": "https://www.blender.org/"
+        }
+      ],
       "descr": "These shaders were developed with the aim to mimic the style and effect of the crosshatching technique used in sketching. Two completely separate implementations were done; one in Maya and one in Blender. This was a student project for the *SFX - Tricks of the Trade* course given at LiU."
     },
     {
@@ -65,7 +95,8 @@
         "uri": "mosaic/leafs5färger_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "mosaic/leafs.jpg",
           "width": 721,
           "height": 700,
@@ -88,18 +119,24 @@
           "width": 311,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2020-03-25",
       "categories": [],
-      "team": ["Andreas Palm", "Elin Sohlberg Viman"],
-      "tools": [{
-        "name": "MATLAB",
-        "colors": {
-          "bg": "#0076a8",
-          "pg": "#FFF"
-        },
-        "link": "https://www.mathworks.com/products/matlab.html"
-      }],
+      "team": [
+        "Andreas Palm",
+        "Elin Sohlberg Viman"
+      ],
+      "tools": [
+        {
+          "name": "MATLAB",
+          "colors": {
+            "bg": "#0076a8",
+            "pg": "#FFF"
+          },
+          "link": "https://www.mathworks.com/products/matlab.html"
+        }
+      ],
       "descr": "The aim in this project was to create a filter that could reproduce any image in the style of painted glass or mosaic. Extra effort was put into the implementation to make the filter maintain the same humanly perceived color levels in the reproduced image as in the original image. All filtered images you see here are reduced to only 20 colors except for the red leafs image that instead only has 5 colors remaining. This was a student project for the *Image Reproduction and Image Quality* course at LiU. Extra credit to Elin Sohlberg Viman for taking the picture of the red leaved trees."
     },
     {
@@ -109,30 +146,38 @@
         "uri": "clothSim/thumb_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "clothSim/fullsize.jpg",
           "width": 1600,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2019-12-19",
-      "categories": ["3D Graphics", "Animations", "Websites"],
-      "tools": [{
-        "name": "three.js",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
+      "categories": [
+        "3D Graphics",
+        "Animations",
+        "Websites"
+      ],
+      "tools": [
+        {
+          "name": "three.js",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://threejs.org/"
         },
-        "link": "https://threejs.org/"
-      },
-      {
-        "name": "dat.GUI",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
-        },
-        "link": "https://github.com/dataarts/dat.gui"
-      }],
+        {
+          "name": "dat.GUI",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://github.com/dataarts/dat.gui"
+        }
+      ],
       "link": "https://jojo126.github.io/TSBK03/",
       "descr": "A mass-spring system to simulate cloth in 3D with some, altough not that great, types of collisions included. This was my student project in the course *Advanced Game Programming* at LiU."
     },
@@ -143,22 +188,28 @@
         "uri": "blenderDonut/doneut_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "blenderDonut/doneut.jpg",
-        "width": 1244,
-        "height": 700,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "blenderDonut/doneut.jpg",
+          "width": 1244,
+          "height": 700,
+          "mediaType": "image"
+        }
+      ],
       "date": "2021-04-22",
-      "categories": ["3D Graphics"],
-      "tools": [{
-        "name": "Blender",
-        "colors": {
-          "bg": "#e87d0d",
-          "pg": "#FFF"
-        },
-        "link": "https://www.blender.org/"
-      }],
+      "categories": [
+        "3D Graphics"
+      ],
+      "tools": [
+        {
+          "name": "Blender",
+          "colors": {
+            "bg": "#e87d0d",
+            "pg": "#FFF"
+          },
+          "link": "https://www.blender.org/"
+        }
+      ],
       "descr": "This is the first (and currently only) thing I have created in Blender. I successfully made it by following Blender Guru's Blender 2.8 Beginner Tutorial. I tried to make it look similar to the donuts seen in the tv-series The Simpsons."
     },
     {
@@ -168,39 +219,48 @@
         "uri": "reddit/reddit_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "reddit/reddit_700.png",
           "width": 1434,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2020-03-09",
-      "categories": ["Websites"],
-      "team": ["Per Blåwiik", "Anneli Nilsson"],
-      "tools": [{
-        "name": "D3",
-        "colors": {
-          "bg": "#ef7234",
-          "pg": "#FFF"
+      "categories": [
+        "Websites"
+      ],
+      "team": [
+        "Per Blåwiik",
+        "Anneli Nilsson"
+      ],
+      "tools": [
+        {
+          "name": "D3",
+          "colors": {
+            "bg": "#ef7234",
+            "pg": "#FFF"
+          },
+          "link": "https://d3js.org/"
         },
-        "link": "https://d3js.org/"
-      },
-      {
-        "name": "Flask",
-        "colors": {
-          "bg": "#3babc3",
-          "pg": "#FFF"
+        {
+          "name": "Flask",
+          "colors": {
+            "bg": "#3babc3",
+            "pg": "#FFF"
+          },
+          "link": "https://flask.palletsprojects.com/en/2.3.x/"
         },
-        "link": "https://flask.palletsprojects.com/en/2.3.x/"
-      },
-      {
-        "name": "Python",
-        "colors": {
-          "bg": "#3776ab",
-          "pg": "#FFF"
-        },
-        "link": "https://www.python.org/"
-      }],
+        {
+          "name": "Python",
+          "colors": {
+            "bg": "#3776ab",
+            "pg": "#FFF"
+          },
+          "link": "https://www.python.org/"
+        }
+      ],
       "link": "https://jojo126.github.io/TNM048/",
       "descr": "Are there any keywords you can spam in your comments in subreddits to increase the chance of receiving karma, or to get the opposite effect? Well, we tried investigating this through the use of data mining and information visualization on a large database containing Reddit data from 2015. This was a student project for the course *Information Visualisation* at LiU."
     },
@@ -211,31 +271,40 @@
         "uri": "l-system/lsystem_250.gif",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "l-system/lsystem_700.png",
           "width": 1434,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2020-10-14",
-      "categories": ["Websites", "3D Graphics"],
-      "team": ["Fredrik Norrstig"],
-      "tools": [{
-        "name": "three.js",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
+      "categories": [
+        "Websites",
+        "3D Graphics"
+      ],
+      "team": [
+        "Fredrik Norrstig"
+      ],
+      "tools": [
+        {
+          "name": "three.js",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://threejs.org/"
         },
-        "link": "https://threejs.org/"
-      },
-      {
-        "name": "dat.GUI",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
-        },
-        "link": "https://github.com/dataarts/dat.gui"
-      }],
+        {
+          "name": "dat.GUI",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://github.com/dataarts/dat.gui"
+        }
+      ],
       "link": "https://jojo126.github.io/TNM095-Lindenmayer-System/",
       "descr": "This webpage can generate 3D structures through the use of Lindenmayer systems (or L-systems) which are good to describe self-similar structures. It uses a set of user defined grammar rules together with recursion to expand a sequence of chars that describes the structure. Turtle graphics are then used to interpret and render the generated structure. This was a student project for the project course *Artificial Intelligence for Interactive Media* given at LiU."
     },
@@ -246,54 +315,60 @@
         "uri": "recipeSuggestions/recipeSuggestions_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "recipeSuggestions/recipeSuggestions.jpg",
           "width": 1482,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2020-06-02",
-      "categories": ["Websites"],
-      "tools": [{
-        "name": "Vue",
-        "colors": {
-          "bg": "#42b883",
-          "pg": "#FFF"
+      "categories": [
+        "Websites"
+      ],
+      "tools": [
+        {
+          "name": "Vue",
+          "colors": {
+            "bg": "#42b883",
+            "pg": "#FFF"
+          },
+          "link": "https://vuejs.org/"
         },
-        "link": "https://vuejs.org/"
-      },
-      {
-        "name": "BootstrapVue",
-        "colors": {
-          "bg": "#563d7c",
-          "pg": "#FFF"
+        {
+          "name": "BootstrapVue",
+          "colors": {
+            "bg": "#563d7c",
+            "pg": "#FFF"
+          },
+          "link": "https://bootstrap-vue.org/"
         },
-        "link": "https://bootstrap-vue.org/"
-      },
-      {
-        "name": "MongoDB",
-        "colors": {
-          "bg": "#00ED64",
-          "pg": "#00684A"
+        {
+          "name": "MongoDB",
+          "colors": {
+            "bg": "#00ED64",
+            "pg": "#00684A"
+          },
+          "link": "https://www.mongodb.com/"
         },
-        "link": "https://www.mongodb.com/"
-      },
-      {
-        "name": "Cloudinary",
-        "colors": {
-          "bg": "#3448c5",
-          "pg": "#FFF"
+        {
+          "name": "Cloudinary",
+          "colors": {
+            "bg": "#3448c5",
+            "pg": "#FFF"
+          },
+          "link": "https://cloudinary.com/"
         },
-        "link": "https://cloudinary.com/"
-      },
-      {
-        "name": "Auth0",
-        "colors": {
-          "bg": "#FF44DD",
-          "pg": "#FFF"
-        },
-        "link": "https://auth0.com/"
-      }],
+        {
+          "name": "Auth0",
+          "colors": {
+            "bg": "#FF44DD",
+            "pg": "#FFF"
+          },
+          "link": "https://auth0.com/"
+        }
+      ],
       "descr": "Ever had the issue like me to decide what meal to cook for dinner? This website was developed to aid me when encountering this problem by picking a random recipe from personal lists of recipes. This was my student project in the course *Advanced Web Programming* at LiU."
     },
     {
@@ -303,22 +378,28 @@
         "uri": "rubberHose/rubberHose_plaid_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "rubberHose/rubberHose_plaid_700.png",
           "width": 323,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2019-08-06",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Illustrator",
-        "colors": {
-          "bg": "#300000",
-          "pg": "#ff9a00"
-        },
-        "link": "https://www.adobe.com/products/illustrator.html"
-      }],
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Illustrator",
+          "colors": {
+            "bg": "#300000",
+            "pg": "#ff9a00"
+          },
+          "link": "https://www.adobe.com/products/illustrator.html"
+        }
+      ],
       "descr": "While watching through the TV-series Futurama, I got inspired from one episode to try and draw something with in the rubber hose art style. And so I drew a portrait of me in that style!"
     },
     {
@@ -326,28 +407,49 @@
       "name": "Jack-O'-Lantern",
       "thumbnail": {
         "sources": [
-          {"uri": "jackOLantern/Pumpkin3_250.mp4", "format": "mp4"}, 
-          {"uri": "jackOLantern/Pumpkin3_250.webm", "format": "webm"}],
+          {
+            "uri": "jackOLantern/Pumpkin3_250.mp4",
+            "format": "mp4"
+          },
+          {
+            "uri": "jackOLantern/Pumpkin3_250.webm",
+            "format": "webm"
+          }
+        ],
         "mediaType": "video"
       },
-      "images": [{
+      "images": [
+        {
           "sources": [
-            {"uri": "jackOLantern/Pumpkin3.mp4", "format": "mp4"}, 
-            {"uri": "jackOLantern/Pumpkin3.webm", "format": "webm"}],
+            {
+              "uri": "jackOLantern/Pumpkin3.mp4",
+              "format": "mp4"
+            },
+            {
+              "uri": "jackOLantern/Pumpkin3.webm",
+              "format": "webm"
+            }
+          ],
           "width": 800,
           "height": 600,
           "mediaType": "video"
-        }],
+        }
+      ],
       "date": "2019-10-31",
-      "categories": ["3D Graphics", "Animations"],
-      "tools": [{
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+      "categories": [
+        "3D Graphics",
+        "Animations"
+      ],
+      "tools": [
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "descr": "It was Halloween and I wanted to do something small and fun that day, and so I made this small model and flickering light animation of a Jack-o'-lantern."
     },
     {
@@ -357,39 +459,51 @@
         "uri": "newtonsCradle/newton_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "newtonsCradle/newton_700.png",
           "width": 1498,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2019-03-15",
-      "categories": ["Websites", "3D Graphics", "Animations"],
-      "team": ["Fredrik Norrstig", "Anneli Nilsson", "Ivanna Maric"],
-      "tools": [{
-        "name": "MATLAB",
-        "colors": {
-          "bg": "#0076a8",
-          "pg": "#FFF"
+      "categories": [
+        "Websites",
+        "3D Graphics",
+        "Animations"
+      ],
+      "team": [
+        "Fredrik Norrstig",
+        "Anneli Nilsson",
+        "Ivanna Maric"
+      ],
+      "tools": [
+        {
+          "name": "MATLAB",
+          "colors": {
+            "bg": "#0076a8",
+            "pg": "#FFF"
+          },
+          "link": "https://www.mathworks.com/products/matlab.html"
         },
-        "link": "https://www.mathworks.com/products/matlab.html"
-      },
-      {
-        "name": "three.js",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
+        {
+          "name": "three.js",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://threejs.org/"
         },
-        "link": "https://threejs.org/"
-      },
-      {
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "link": "https://jojo126.github.io/TNM085/",
       "descr": "An interactive simulation of a Newton's cradle. A version of the simulation was first modelled in MATLAB to then be exported into WebGL with three.js. This was a student project for the course *Modelling Project* at LiU."
     },
@@ -400,23 +514,32 @@
         "uri": "tuna/tuna_250.png",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "tuna/tuna.png",
           "width": 1450,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2018-10-16",
-      "categories": ["Websites"],
-      "team": ["Anneli Nilsson", "Ivanna Maric"],
-      "tools": [{
-        "name": "p5.js",
-        "colors": {
-          "bg": "#ed225d",
-          "pg": "#FFF"
-        },
-        "link": "https://p5js.org/"
-      }],
+      "categories": [
+        "Websites"
+      ],
+      "team": [
+        "Anneli Nilsson",
+        "Ivanna Maric"
+      ],
+      "tools": [
+        {
+          "name": "p5.js",
+          "colors": {
+            "bg": "#ed225d",
+            "pg": "#FFF"
+          },
+          "link": "https://p5js.org/"
+        }
+      ],
       "descr": "This is a guitar tuner on the web. It uses the devices microphone to listen and the determine the frequency of the sound. This was a student project made for the course *Physics of Sound* at LiU."
     },
     {
@@ -426,47 +549,60 @@
         "uri": "theJump/TheJump_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "theJump/TheJump.jpg",
           "width": 681,
           "height": 652,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2018-05-21",
-      "categories": ["3D Graphics", "Animations"],
-      "team": ["Anneli Nilsson", "Fredrik Norrstig", "Andreas Palm", "Ivanna Maric", "Elin Sohlberg Viman"],
-      "tools": [{
-        "name": "Unreal Engine",
-        "colors": {
-          "bg": "#1D1931",
-          "pg": "#FFF"
+      "categories": [
+        "3D Graphics",
+        "Animations"
+      ],
+      "team": [
+        "Anneli Nilsson",
+        "Fredrik Norrstig",
+        "Andreas Palm",
+        "Ivanna Maric",
+        "Elin Sohlberg Viman"
+      ],
+      "tools": [
+        {
+          "name": "Unreal Engine",
+          "colors": {
+            "bg": "#1D1931",
+            "pg": "#FFF"
+          },
+          "link": "https://www.unrealengine.com/en-US/"
         },
-        "link": "https://www.unrealengine.com/en-US/"
-      },
-      {
-        "name": "Blender",
-        "colors": {
-          "bg": "#e87d0d",
-          "pg": "#FFF"
+        {
+          "name": "Blender",
+          "colors": {
+            "bg": "#e87d0d",
+            "pg": "#FFF"
+          },
+          "link": "https://www.blender.org/"
         },
-        "link": "https://www.blender.org/"
-      },
-      {
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
         },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      },
-      {
-        "name": "FL Studio",
-        "colors": {
-          "bg": "#ff7629",
-          "pg": "#FFF"
-        },
-        "link": "https://www.image-line.com/"
-      }],
+        {
+          "name": "FL Studio",
+          "colors": {
+            "bg": "#ff7629",
+            "pg": "#FFF"
+          },
+          "link": "https://www.image-line.com/"
+        }
+      ],
       "descr": "A short 3D animated movie. This was a student project for the course *3-D Computer Graphics* at LiU."
     },
     {
@@ -476,22 +612,28 @@
         "uri": "vinglasUni/nyVinglas_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "vinglasUni/nyVinglas.jpg",
           "width": 800,
           "height": 600,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2018-02-06",
-      "categories": ["3D Graphics"],
-      "tools": [{
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+      "categories": [
+        "3D Graphics"
+      ],
+      "tools": [
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "descr": "This was a task in the lab series given in the course *3-D Computer Graphics* at LiU."
     },
     {
@@ -501,39 +643,52 @@
         "uri": "lostBork/lostbork_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
+      "images": [
+        {
           "uri": "lostBork/lostbork.jpg",
           "width": 1244,
           "height": 700,
           "mediaType": "image"
-        }],
+        }
+      ],
       "date": "2017-12-14",
-      "categories": ["Games", "Drawings", "Animations"],
-      "team": ["Andreas Palm", "Ivanna Maric", "Anneli Nilsson", "Oskar Tengvall"],
-      "tools": [{
-        "name": "Unity",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
+      "categories": [
+        "Games",
+        "Drawings",
+        "Animations"
+      ],
+      "team": [
+        "Andreas Palm",
+        "Ivanna Maric",
+        "Anneli Nilsson",
+        "Oskar Tengvall"
+      ],
+      "tools": [
+        {
+          "name": "Unity",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://unity.com/"
         },
-        "link": "https://unity.com/"
-      },
-      {
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
         },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      },
-      {
-        "name": "Piskel",
-        "colors": {
-          "bg": "#FFD700",
-          "pg": "#333"
-        },
-        "link": "https://www.piskelapp.com/"
-      }],
+        {
+          "name": "Piskel",
+          "colors": {
+            "bg": "#FFD700",
+            "pg": "#333"
+          },
+          "link": "https://www.piskelapp.com/"
+        }
+      ],
       "descr": "A creepy 2D puzzle game. This was developed as a student project for the *Communication and User Interfaces* course at LiU."
     },
     {
@@ -543,47 +698,58 @@
         "uri": "lego/lego_250.png",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "lego/lego.jpg",
-        "width": 1485,
-        "height": 700,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "lego/lego.jpg",
+          "width": 1485,
+          "height": 700,
+          "mediaType": "image"
+        }
+      ],
       "date": "2017-01-11",
-      "categories": ["Websites"],
-      "team": ["Malin Hagberg", "Ida Johansson", "Ester Lindgren", "Anna Skåre"],
-      "tools": [{
-        "name": "HTML",
-        "colors": {
-          "bg": "#E34C26",
-          "pg": "#FFF"
+      "categories": [
+        "Websites"
+      ],
+      "team": [
+        "Malin Hagberg",
+        "Ida Johansson",
+        "Ester Lindgren",
+        "Anna Skåre"
+      ],
+      "tools": [
+        {
+          "name": "HTML",
+          "colors": {
+            "bg": "#E34C26",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/HTML"
         },
-        "link": "https://en.wikipedia.org/wiki/HTML"
-      },
-      {
-        "name": "CSS",
-        "colors": {
-          "bg": "#214ce6",
-          "pg": "#FFF"
+        {
+          "name": "CSS",
+          "colors": {
+            "bg": "#214ce6",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/CSS"
         },
-        "link": "https://en.wikipedia.org/wiki/CSS"
-      },
-      {
-        "name": "PHP",
-        "colors": {
-          "bg": "#777bb3",
-          "pg": "#000"
+        {
+          "name": "PHP",
+          "colors": {
+            "bg": "#777bb3",
+            "pg": "#000"
+          },
+          "link": "https://www.php.net/"
         },
-        "link": "https://www.php.net/"
-      },
-      {
-        "name": "SQL",
-        "colors": {
-          "bg": "#000",
-          "pg": "#FFF"
-        },
-        "link": "https://en.wikipedia.org/wiki/SQL"
-      }],
+        {
+          "name": "SQL",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/SQL"
+        }
+      ],
       "descr": "This website basically is just a search engine for lego sets. It was the student project my group developed in the course *Electronic Publishing* at LiU where the goal was to learn basic web technologies such as HTML/CSS and working with relational databases."
     },
     {
@@ -591,37 +757,62 @@
       "name": "P-Bak",
       "thumbnail": {
         "sources": [
-          {"uri": "pBak/Pbak_250.mp4", "format": "mp4"}, 
-          {"uri": "pBak/Pbak_250.webm", "format": "webm"}],
+          {
+            "uri": "pBak/Pbak_250.mp4",
+            "format": "mp4"
+          },
+          {
+            "uri": "pBak/Pbak_250.webm",
+            "format": "webm"
+          }
+        ],
         "mediaType": "video"
       },
-      "images": [{
-        "sources": [
-          {"uri": "pBak/Pbak.mp4", "format": "mp4"}, 
-          {"uri": "pBak/Pbak.webm", "format": "webm"}],
-        "width": 1720,
-        "height": 1080,
-        "mediaType": "video"
-      }],
+      "images": [
+        {
+          "sources": [
+            {
+              "uri": "pBak/Pbak.mp4",
+              "format": "mp4"
+            },
+            {
+              "uri": "pBak/Pbak.webm",
+              "format": "webm"
+            }
+          ],
+          "width": 1720,
+          "height": 1080,
+          "mediaType": "video"
+        }
+      ],
       "date": "2016-12-05",
-      "categories": ["Animations"],
-      "team": ["Malin Hagberg", "Ester Lindgren", "Annika Lundberg", "Andreas Palm"],
-      "tools": [{
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
+      "categories": [
+        "Animations"
+      ],
+      "team": [
+        "Malin Hagberg",
+        "Ester Lindgren",
+        "Annika Lundberg",
+        "Andreas Palm"
+      ],
+      "tools": [
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
         },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }, 
-      {
-        "name": "Premiere Pro",
-        "colors": {
-          "bg": "#00005B",
-          "pg": "#9999FF"
-        },
-        "link": "https://www.adobe.com/products/premiere.html"
-      }],
+        {
+          "name": "Premiere Pro",
+          "colors": {
+            "bg": "#00005B",
+            "pg": "#9999FF"
+          },
+          "link": "https://www.adobe.com/products/premiere.html"
+        }
+      ],
       "descr": "A short stop-motion movie showing you how to bake your own gingerbreads à la swedish style. One of the first student projects I worked on during my years at LiU. This project was specifially made for the *Digital Media* course."
     },
     {
@@ -631,39 +822,48 @@
         "uri": "lightInDarkness/ljusIMorker_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "lightInDarkness/ljusIMorker_700.jpg",
-        "width": 732,
-        "height": 700,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "lightInDarkness/ljusIMorker_700.jpg",
+          "width": 732,
+          "height": 700,
+          "mediaType": "image"
+        }
+      ],
       "date": "2016-05-12",
-      "categories": ["Animations", "Drawings"],
-      "team": ["Kevin Ullbrandt"],
-      "tools": [{
-        "name": "After Effects",
-        "colors": {
-          "bg": "#00005b",
-          "pg": "#99f"
+      "categories": [
+        "Animations",
+        "Drawings"
+      ],
+      "team": [
+        "Kevin Ullbrandt"
+      ],
+      "tools": [
+        {
+          "name": "After Effects",
+          "colors": {
+            "bg": "#00005b",
+            "pg": "#99f"
+          },
+          "link": "https://www.adobe.com/products/aftereffects.html"
         },
-        "link": "https://www.adobe.com/products/aftereffects.html"
-      },
-      {
-        "name": "DUIK",
-        "colors": {
-          "bg": "#434343",
-          "pg": "#a526c4"
+        {
+          "name": "DUIK",
+          "colors": {
+            "bg": "#434343",
+            "pg": "#a526c4"
+          },
+          "link": "https://rxlaboratory.org/tools/duik-angela/"
         },
-        "link": "https://rxlaboratory.org/tools/duik-angela/"
-      },
-      {
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
-        },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }],
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ],
       "descr": "A super short animation made in high(?) school. The flame was made using a particle system.",
       "link": "https://youtu.be/431kZ-liGZw?feature=shared"
     },
@@ -674,22 +874,28 @@
         "uri": "beginner3DSMax/sked.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "beginner3DSMax/sked.jpg",
-        "width": 640,
-        "height": 480,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "beginner3DSMax/sked.jpg",
+          "width": 640,
+          "height": 480,
+          "mediaType": "image"
+        }
+      ],
       "date": "2016-01-20",
-      "categories": ["3D Graphics"],
-      "tools": [{
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+      "categories": [
+        "3D Graphics"
+      ],
+      "tools": [
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "descr": "Some 3D models I made in school to learn the basics in 3DS Max."
     },
     {
@@ -699,36 +905,42 @@
         "uri": "kaneki_dig.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "kaneki_dig.jpg",
-        "width": 2126,
-        "height": 2598,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "kaneki_dig.jpg",
+          "width": 2126,
+          "height": 2598,
+          "mediaType": "image"
+        }
+      ],
       "date": "2016-01-03",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      },
-      {
-        "name": "Felt-tip pens",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      },
-      {
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }],
+        {
+          "name": "Felt-tip pens",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ],
       "descr": "A portrait of the character Kaneki Ken from the anime Tokyo Ghoul. I made this in high school(?) as a part of my final thesis project (gymnasiearbetet)."
     },
     {
@@ -738,22 +950,28 @@
         "uri": "beginner3DSMax/vinglas.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "beginner3DSMax/vinglas.jpg",
-        "width": 640,
-        "height": 480,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "beginner3DSMax/vinglas.jpg",
+          "width": 640,
+          "height": 480,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-12-16",
-      "categories": ["3D Graphics"],
-      "tools": [{
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+      "categories": [
+        "3D Graphics"
+      ],
+      "tools": [
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "descr": "A wine glass I made in high school."
     },
     {
@@ -763,38 +981,45 @@
         "uri": "gissaDjur.png",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "gissaDjur.png",
-        "width": 1917,
-        "height": 890,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "gissaDjur.png",
+          "width": 1917,
+          "height": 890,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-12-16",
-      "categories": ["Websites", "Games"],
-      "tools": [{
-        "name": "HTML",
-        "colors": {
-          "bg": "#E34C26",
-          "pg": "#FFF"
+      "categories": [
+        "Websites",
+        "Games"
+      ],
+      "tools": [
+        {
+          "name": "HTML",
+          "colors": {
+            "bg": "#E34C26",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/HTML"
         },
-        "link": "https://en.wikipedia.org/wiki/HTML"
-      },
-      {
-        "name": "CSS",
-        "colors": {
-          "bg": "#214ce6",
-          "pg": "#FFF"
+        {
+          "name": "CSS",
+          "colors": {
+            "bg": "#214ce6",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/CSS"
         },
-        "link": "https://en.wikipedia.org/wiki/CSS"
-      },
-      {
-        "name": "JavaScript",
-        "colors": {
-          "bg": "#f1dc4f",
-          "pg": "#2e302b"
-        },
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      }],
+        {
+          "name": "JavaScript",
+          "colors": {
+            "bg": "#f1dc4f",
+            "pg": "#2e302b"
+          },
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }
+      ],
       "descr": "A small very simple game where you click on the image of the animal that is prompted. Its another school project from my time at high school. I can't really remember anymore but I think this acutally was my first time working with JavaScript :O"
     },
     {
@@ -804,22 +1029,28 @@
         "uri": "beginner3DSMax/stol.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "beginner3DSMax/stol.jpg",
-        "width": 640,
-        "height": 480,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "beginner3DSMax/stol.jpg",
+          "width": 640,
+          "height": 480,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-12-09",
-      "categories": ["3D Graphics"],
-      "tools": [{
-        "name": "3DS Max",
-        "colors": {
-          "bg": "#3aa3d1",
-          "pg": "#FFF"
-        },
-        "link": "https://www.autodesk.com/products/3ds-max/overview"
-      }],
+      "categories": [
+        "3D Graphics"
+      ],
+      "tools": [
+        {
+          "name": "3DS Max",
+          "colors": {
+            "bg": "#3aa3d1",
+            "pg": "#FFF"
+          },
+          "link": "https://www.autodesk.com/products/3ds-max/overview"
+        }
+      ],
       "descr": "Part of the get-to-learn-3DS Max assignments in high school."
     },
     {
@@ -829,22 +1060,28 @@
         "uri": "beach.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "beach.jpg",
-        "width": 760,
-        "height": 420,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "beach.jpg",
+          "width": 760,
+          "height": 420,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-09-14",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Illustrator",
-        "colors": {
-          "bg": "#300000",
-          "pg": "#ff9a00"
-        },
-        "link": "https://www.adobe.com/products/illustrator.html"
-      }],
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Illustrator",
+          "colors": {
+            "bg": "#300000",
+            "pg": "#ff9a00"
+          },
+          "link": "https://www.adobe.com/products/illustrator.html"
+        }
+      ],
       "descr": "Another one of those assignment from high school. This one was to get familiar with Illustrator and its tools."
     },
     {
@@ -854,22 +1091,28 @@
         "uri": "ringarna.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "ringarna.jpg",
-        "width": 652,
-        "height": 349,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "ringarna.jpg",
+          "width": 652,
+          "height": 349,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-09-09",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Illustrator",
-        "colors": {
-          "bg": "#300000",
-          "pg": "#ff9a00"
-        },
-        "link": "https://www.adobe.com/products/illustrator.html"
-      }],
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Illustrator",
+          "colors": {
+            "bg": "#300000",
+            "pg": "#ff9a00"
+          },
+          "link": "https://www.adobe.com/products/illustrator.html"
+        }
+      ],
       "descr": "Another one of those assignment from high school. This one was to get familiar with Illustrator and its tools."
     },
     {
@@ -879,22 +1122,28 @@
         "uri": "regn.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "regn.jpg",
-        "width": 750,
-        "height": 422,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "regn.jpg",
+          "width": 750,
+          "height": 422,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-07-13",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "Canon EOS 600D",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#df0011"
-        },
-        "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "Canon EOS 600D",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#df0011"
+          },
+          "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
+        }
+      ],
       "location": "Linköping"
     },
     {
@@ -904,22 +1153,28 @@
         "uri": "alpha.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "alpha.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "alpha.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-06-03",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Doom Nightclub, Linköping"
     },
     {
@@ -929,23 +1184,29 @@
         "uri": "kvist.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "kvist.jpg",
-        "width": 750,
-        "height": 500,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "kvist.jpg",
+          "width": 750,
+          "height": 500,
+          "mediaType": "image"
+        }
+      ],
       "date": "2015-05-14",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "Canon EOS 600D",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#df0011"
-        },
-        "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
-      }],
-      "location":"Linköping"
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "Canon EOS 600D",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#df0011"
+          },
+          "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
+        }
+      ],
+      "location": "Linköping"
     },
     {
       "id": "28",
@@ -954,22 +1215,28 @@
         "uri": "box.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "box.jpg",
-        "width": 750,
-        "height": 422,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "box.jpg",
+          "width": 750,
+          "height": 422,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-12-20",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "Canon EOS 600D",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#df0011"
-        },
-        "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "Canon EOS 600D",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#df0011"
+          },
+          "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
+        }
+      ],
       "location": "Kanberget, Linköping"
     },
     {
@@ -979,22 +1246,28 @@
         "uri": "frozen.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "frozen.jpg",
-        "width": 750,
-        "height": 422,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "frozen.jpg",
+          "width": 750,
+          "height": 422,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-12-20",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "Canon EOS 600D",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#df0011"
-        },
-        "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "Canon EOS 600D",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#df0011"
+          },
+          "link": "https://www.canon.se/for_home/product_finder/cameras/digital_slr/eos_600d/"
+        }
+      ],
       "location": "Trädgårdsföreningen, Linköping"
     },
     {
@@ -1004,22 +1277,28 @@
         "uri": "niels.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "niels.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "niels.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-12-05",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Dynamo, Norrköping"
     },
     {
@@ -1029,36 +1308,42 @@
         "uri": "ros.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "ros.jpg",
-        "width": 750,
-        "height": 563,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "ros.jpg",
+          "width": 750,
+          "height": 563,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-10-26",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      },
-      {
-        "name": "Paper stump",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      },
-      {
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }]
+        {
+          "name": "Paper stump",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ]
     },
     {
       "id": "32",
@@ -1067,28 +1352,34 @@
         "uri": "papa2.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "papa2.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "papa2.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-10-24",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Paper stump",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         }
-      },
-      {
-        "name": "Paper stump",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      }]
+      ]
     },
     {
       "id": "33",
@@ -1097,28 +1388,34 @@
         "uri": "alpha2.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "alpha2.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "alpha2.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-09-20",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Paper stump",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         }
-      },
-      {
-        "name": "Paper stump",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      }]
+      ]
     },
     {
       "id": "34",
@@ -1127,22 +1424,28 @@
         "uri": "aker.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "aker.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "aker.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-07-08",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Ödeshög"
     },
     {
@@ -1152,22 +1455,28 @@
         "uri": "keyboardist_chibi.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "keyboardist_chibi.jpg",
-        "width": 1699,
-        "height": 2838,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "keyboardist_chibi.jpg",
+          "width": 1699,
+          "height": 2838,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-06-02",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
-        },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }]
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ]
     },
     {
       "id": "36",
@@ -1176,45 +1485,57 @@
         "uri": "domeRitual/AngryStag_250.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "domeRitual/AngryStag.jpg",
-        "width": 1007,
-        "height": 644,
-        "mediaType": "image"
-      },
-      {
-        "uri": "domeRitual/ChoiceScene.png",
-        "width": 626,
-        "height": 425,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "domeRitual/AngryStag.jpg",
+          "width": 1007,
+          "height": 644,
+          "mediaType": "image"
+        },
+        {
+          "uri": "domeRitual/ChoiceScene.png",
+          "width": 626,
+          "height": 425,
+          "mediaType": "image"
+        }
+      ],
       "date": "2021-01-12",
-      "categories": ["Animations", "3D Graphics", "Games"],
-      "team": ["Anneli Nilsson", "Per Blåwiik", "Ivanna Maric"],
-      "tools": [{
-        "name": "Unreal Engine",
-        "colors": {
-          "bg": "#1D1931",
-          "pg": "#FFF"
+      "categories": [
+        "Animations",
+        "3D Graphics",
+        "Games"
+      ],
+      "team": [
+        "Anneli Nilsson",
+        "Per Blåwiik",
+        "Ivanna Maric"
+      ],
+      "tools": [
+        {
+          "name": "Unreal Engine",
+          "colors": {
+            "bg": "#1D1931",
+            "pg": "#FFF"
+          },
+          "link": "https://www.unrealengine.com/en-US/"
         },
-        "link": "https://www.unrealengine.com/en-US/"
-      },
-      {
-        "name": "Blender",
-        "colors": {
-          "bg": "#e87d0d",
-          "pg": "#FFF"
+        {
+          "name": "Blender",
+          "colors": {
+            "bg": "#e87d0d",
+            "pg": "#FFF"
+          },
+          "link": "https://www.blender.org/"
         },
-        "link": "https://www.blender.org/"
-      }, 
-      {
-        "name": "Audacity",
-        "colors": {
-          "bg": "#0000ea",
-          "pg": "#FFF"
-        },
-        "link": "https://www.audacityteam.org/"
-      }],
+        {
+          "name": "Audacity",
+          "colors": {
+            "bg": "#0000ea",
+            "pg": "#FFF"
+          },
+          "link": "https://www.audacityteam.org/"
+        }
+      ],
       "descr": "A semi-interactive VR production for the Dome theater located in Visualiseringscenter C in Norrköping, Sweden. This was a student project for the course *Media Production for Immersive Environments* at LiU."
     },
     {
@@ -1224,22 +1545,28 @@
         "uri": "earth.gif",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "earth.gif",
-        "width": 400,
-        "height": 550,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "earth.gif",
+          "width": 400,
+          "height": 550,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-06-02",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
-        },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }]
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ]
     },
     {
       "id": "38",
@@ -1248,28 +1575,34 @@
         "uri": "papa.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "papa.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "papa.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-03-10",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Paper stump",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         }
-      },
-      {
-        "name": "Paper stump",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      }]
+      ]
     },
     {
       "id": "39",
@@ -1278,28 +1611,34 @@
         "uri": "alpha1.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "alpha1.jpg",
-        "width": 563,
-        "height": 750,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "alpha1.jpg",
+          "width": 563,
+          "height": 750,
+          "mediaType": "image"
+        }
+      ],
       "date": "2014-02-02",
-      "categories": ["Drawings"],
-      "tools": [{
-        "name": "Graphite pencils",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
+      "categories": [
+        "Drawings"
+      ],
+      "tools": [
+        {
+          "name": "Graphite pencils",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
+        },
+        {
+          "name": "Paper stump",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          }
         }
-      },
-      {
-        "name": "Paper stump",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        }
-      }]
+      ]
     },
     {
       "id": "40",
@@ -1308,22 +1647,28 @@
         "uri": "skorsten.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "skorsten.jpg",
-        "width": 750,
-        "height": 515,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "skorsten.jpg",
+          "width": 750,
+          "height": 515,
+          "mediaType": "image"
+        }
+      ],
       "date": "2013-08-13",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Campus Valla, Linköping"
     },
     {
@@ -1333,22 +1678,28 @@
         "uri": "vattern.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "vattern.jpg",
-        "width": 750,
-        "height": 563,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "vattern.jpg",
+          "width": 750,
+          "height": 563,
+          "mediaType": "image"
+        }
+      ],
       "date": "2013-07-11",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Vättern, near Jönköping"
     },
     {
@@ -1358,22 +1709,28 @@
         "uri": "falkenberg.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "falkenberg.jpg",
-        "width": 750,
-        "height": 563,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "falkenberg.jpg",
+          "width": 750,
+          "height": 563,
+          "mediaType": "image"
+        }
+      ],
       "date": "2013-07-10",
-      "categories": ["Photographs"],
-      "tools": [{
-        "name": "iPhone 5",
-        "colors": {
-          "bg": "#FFF",
-          "pg": "#000"
-        },
-        "link": "https://support.apple.com/kb/SP655"
-      }],
+      "categories": [
+        "Photographs"
+      ],
+      "tools": [
+        {
+          "name": "iPhone 5",
+          "colors": {
+            "bg": "#FFF",
+            "pg": "#000"
+          },
+          "link": "https://support.apple.com/kb/SP655"
+        }
+      ],
       "location": "Falkenberg beach"
     },
     {
@@ -1383,37 +1740,45 @@
         "uri": "raytracer/raytracer_150.jpg",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "raytracer/raytracer_area_min.jpg",
-        "width": 800,
-        "height": 800,
-        "mediaType": "image"
-      },
-      {
-        "uri": "raytracer/pointLight_min.png",
-        "width": 800,
-        "height": 800,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "raytracer/raytracer_area_min.jpg",
+          "width": 800,
+          "height": 800,
+          "mediaType": "image"
+        },
+        {
+          "uri": "raytracer/pointLight_min.png",
+          "width": 800,
+          "height": 800,
+          "mediaType": "image"
+        }
+      ],
       "date": "2021-12-04",
-      "categories": ["3D Graphics"],
-      "team": ["Ivanna Maric"],
-      "tools": [{
-        "name": "C++",
-        "colors": {
-          "bg": "#4183c4",
-          "pg": "#FFF"
+      "categories": [
+        "3D Graphics"
+      ],
+      "team": [
+        "Ivanna Maric"
+      ],
+      "tools": [
+        {
+          "name": "C++",
+          "colors": {
+            "bg": "#4183c4",
+            "pg": "#FFF"
+          },
+          "link": "https://isocpp.org/"
         },
-        "link": "https://isocpp.org/"
-      },
-      {
-        "name": "glm",
-        "colors": {
-          "bg": "#ff7f00",
-          "pg": "#FFF"
-        },
-        "link": "https://github.com/g-truc/glm"
-      }],
+        {
+          "name": "glm",
+          "colors": {
+            "bg": "#ff7f00",
+            "pg": "#FFF"
+          },
+          "link": "https://github.com/g-truc/glm"
+        }
+      ],
       "descr": "A Monte-Carlo ray tracer written from scratch in C++. All surfaces use Lambertian diffuse reflectors for the matte look except for the sphere which use a *\"perfect reflector\"* for its surface. There are two different renders here. The first render has an area light in the ceiling and the other one has instead a point light in the same spot. This was a student project for the *Advanced Global Illumination and Rendering* course given at LiU."
     },
     {
@@ -1423,22 +1788,29 @@
         "uri": "helixAnimation/helix_250.webp",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "helixAnimation/helix.webp",
-        "width": 1669,
-        "height": 919,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "helixAnimation/helix.webp",
+          "width": 1669,
+          "height": 919,
+          "mediaType": "image"
+        }
+      ],
       "date": "2024-01-13",
-      "categories": ["Websites", "Animations"],
-      "tools": [{
-        "name": "CSS",
-        "colors": {
-          "bg": "#214ce6",
-          "pg": "#FFF"
-        },
-        "link": "https://en.wikipedia.org/wiki/CSS"
-      }],
+      "categories": [
+        "Websites",
+        "Animations"
+      ],
+      "tools": [
+        {
+          "name": "CSS",
+          "colors": {
+            "bg": "#214ce6",
+            "pg": "#FFF"
+          },
+          "link": "https://en.wikipedia.org/wiki/CSS"
+        }
+      ],
       "link": "https://jojo126.github.io/helix-css-animation/",
       "descr": "While watching a vod from one of Mewtru's livestreams on twitch, she showed one of her recent projects where she had made an animation like this one. I got curious if I could remake it and so I tried and ended up with this result :)"
     },
@@ -1449,30 +1821,37 @@
         "uri": "bubbles/bubbles_250.webp",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "bubbles/bubbles.webp",
-        "width": 1266,
-        "height": 700,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "bubbles/bubbles.webp",
+          "width": 1266,
+          "height": 700,
+          "mediaType": "image"
+        }
+      ],
       "date": "2023-07-17",
-      "categories": ["Websites", "Animations"],
-      "tools": [{
-        "name": "JavaScript",
-        "colors": {
-          "bg": "#f1dc4f",
-          "pg": "#2e302b"
+      "categories": [
+        "Websites",
+        "Animations"
+      ],
+      "tools": [
+        {
+          "name": "JavaScript",
+          "colors": {
+            "bg": "#f1dc4f",
+            "pg": "#2e302b"
+          },
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      },
-      {
-        "name": "Photoshop",
-        "colors": {
-          "bg": "#001e36",
-          "pg": "#31a8ff"
-        },
-        "link": "https://www.adobe.com/products/photoshop.html"
-      }],
+        {
+          "name": "Photoshop",
+          "colors": {
+            "bg": "#001e36",
+            "pg": "#31a8ff"
+          },
+          "link": "https://www.adobe.com/products/photoshop.html"
+        }
+      ],
       "link": "https://jojo126.github.io/bubbles/",
       "descr": "I tried recreating the old bubbles screensaver that was available in earlier versions of Windows. To challenge myself a bit extra, I attempted to this with implementing my own physics engine instead of using e.g. [matter.js](https://brm.io/matter-js/). That is partially why the bubbles behave a bit buggy 😅"
     },
@@ -1483,24 +1862,111 @@
         "uri": "AoC2023.png",
         "mediaType": "image"
       },
-      "images": [{
-        "uri": "AoC2023.png",
-        "width": 657,
-        "height": 657,
-        "mediaType": "image"
-      }],
+      "images": [
+        {
+          "uri": "AoC2023.png",
+          "width": 657,
+          "height": 657,
+          "mediaType": "image"
+        }
+      ],
       "date": "2024-06-02",
       "categories": [],
-      "tools": [{
-        "name": "JavaScript",
-        "colors": {
-          "bg": "#f1dc4f",
-          "pg": "#2e302b"
-        },
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      }],
+      "tools": [
+        {
+          "name": "JavaScript",
+          "colors": {
+            "bg": "#f1dc4f",
+            "pg": "#2e302b"
+          },
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }
+      ],
       "link": "https://github.com/Jojo126/AoC2023",
       "descr": "It took me way longer than a month, but I finally solved all the programming puzzles in Advent of Code 2023 with Javascript and Nodejs."
+    },
+    {
+      "id": "47",
+      "name": "Airhockey",
+      "thumbnail": {
+        "uri": "airhockey.png",
+        "mediaType": "image"
+      },
+      "images": [
+        {
+          "uri": "airhockey.png",
+          "width": 1920,
+          "height": 913,
+          "mediaType": "image"
+        }
+      ],
+      "date": "2024-09-22",
+      "categories": [
+        "Websites",
+        "Animations",
+        "Games"
+      ],
+      "tools": [
+        {
+          "name": "JavaScript",
+          "colors": {
+            "bg": "#f1dc4f",
+            "pg": "#2e302b"
+          },
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "matter.js",
+          "colors": {
+            "bg": "#76f09b",
+            "pg": "#4b5562"
+          },
+          "link": "https://brm.io/matter-js/"
+        },
+        {
+          "name": "tsParticles",
+          "colors": {
+            "bg": "#000",
+            "pg": "#FFF"
+          },
+          "link": "https://particles.js.org/"
+        }
+      ],
+      "link": "https://jojo126.github.io/Airhockey/",
+      "descr": "A digital web based version of the well known airhockey game for local play. The game can run on smartphones, but you will have a better time playing it with a friend on a PC that has a screen with multitouch capabilities."
+    },
+    {
+      "id": "48",
+      "name": "Gradient Animation",
+      "thumbnail": {
+        "uri": "gradientAnim.png",
+        "mediaType": "image"
+      },
+      "images": [
+        {
+          "uri": "gradientAnim.png",
+          "width": 1920,
+          "height": 911,
+          "mediaType": "image"
+        }
+      ],
+      "date": "2024-11-09",
+      "categories": [
+        "Websites",
+        "Animations"
+      ],
+      "tools": [
+        {
+          "name": "TypeScript",
+          "colors": {
+            "bg": "#3178c6",
+            "pg": "#FFF"
+          },
+          "link": "https://www.typescriptlang.org/"
+        }
+      ],
+      "link": "https://jojo126.github.io/Gradient-Animation/",
+      "descr": "Inspired by the graphical profile used by Angular and Next.js, I got curious about what it's like working with gradients today and therefore decided to implement a similar effect but also animate it to make it feel like a lava lamp."
     }
   ]
 }
